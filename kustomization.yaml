@@ -1,0 +1,16 @@
+resources:
+  - namespace.yaml
+  - controllermanager-cm.yaml
+  - managerrole-cr.yaml
+  - manager-rolebinding.yaml
+  - metricsreader-cr.yaml
+  - proxyrole-cr.yaml
+  - proxy-rolebinding.yaml
+  - leaderelection-role.yaml
+  - leaderelection-rolebinding.yaml
+  - serviceaccount.yaml
+  - deployment.yaml
+  - service.yaml
+
+
+namespace: doppler-operator-system
